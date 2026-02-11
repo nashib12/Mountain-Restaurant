@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background: #f5f5f5;
+    
+}
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: "Marcellus", serif;
+}
+
+p,
+a,
+input,
+button,
+ul,
+ol,
+li,
+span,
+strong,
+textarea,
+label {
+  font-family: "Jost", sans-serif;
+}
+
