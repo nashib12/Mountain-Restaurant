@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-5 gap-6 mb-12 md:mb-24">
           <div className="flex items-start justify-center flex-col gap-6">
             <img src={LogoImg} alt="Logo Image" className="w-auto h-14" />
-            <p className="leading-7 text-justify">
+            <p className="leading-7">
               Embark on an unforgettable journey with Saafar. Our expert team
               curates personalized travel experiences
             </p>

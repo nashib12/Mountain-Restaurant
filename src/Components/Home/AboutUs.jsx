@@ -38,7 +38,7 @@ const AboutUs = () => {
               <img
                 src={Img1}
                 alt="Accommodation Post"
-                className="w-96 h-110 md:h-140 object-cover group-hover:scale-110 "
+                className="w-96 h-110 md:h-140 object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-110"
               />
               <button className="hidden absolute z-20 top-8 right-6 h-14 w-14 rounded-xl group-hover:flex items-center justify-center bg-white text-[#c97a4f] hover:bg-[#c97a4f] hover:text-white cursor-pointer">
                 <BsArrowUpRight size={28} />
@@ -77,7 +77,7 @@ const AboutUs = () => {
               <img
                 src={Img2}
                 alt="Accommodation Post"
-                className="w-full h-110 md:h-screen object-cover group-hover:scale-110 "
+                className="w-full h-110 md:h-screen transform transition-transform duration-700 ease-in-out group-hover:scale-110"
               />
               <button className="hidden absolute cursor-pointer top-8 right-8 h-14 w-14 rounded-xl z-20 group-hover:flex items-center justify-center bg-white text-[#c97a4f] hover:bg-[#c97a4f] hover:text-white transition-colors duration-300">
                 <BsArrowUpRight size={28} />
@@ -116,7 +116,7 @@ const AboutUs = () => {
               <img
                 src={Img3}
                 alt="Accommodation Post"
-                className="w-full h-110 md:h-screen object-cover group-hover:scale-110 "
+                className="w-full h-110 md:h-screen otransform transition-transform duration-700 ease-in-out group-hover:scale-110"
               />
               <button className="hidden absolute cursor-pointer top-8 right-8 h-14 w-14 rounded-xl z-20 group-hover:flex items-center justify-center bg-white text-[#c97a4f] hover:bg-[#c97a4f] hover:text-white transition-colors duration-300">
                 <BsArrowUpRight size={28} />
@@ -163,7 +163,7 @@ const AboutUs = () => {
                 <img
                   src={Img4}
                   alt="Accommodation Post"
-                  className="w-full h-110 md:h-screen object-cover group-hover:scale-110 "
+                  className="w-full h-110 md:h-screen transform transition-transform duration-700 ease-in-out group-hover:scale-110"
                 />
                 <button className="hidden absolute cursor-pointer top-8 right-8 h-14 w-14 rounded-xl z-20 group-hover:flex items-center justify-center bg-white text-[#c97a4f] hover:bg-[#c97a4f] hover:text-white transition-colors duration-300">
                   <BsArrowUpRight size={28} />
