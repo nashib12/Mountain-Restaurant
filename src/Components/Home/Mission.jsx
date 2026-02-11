@@ -96,7 +96,7 @@ const Mission = () => {
                 </div>
             </div>
             {/* right sectiion  */}
-            <div className='sticky top-32 h-screen '>
+            <div className='sticky top-32 md:h-screen '>
                 <div className='grid grid-cols-2 gap-0'>
                     <div className='col-span-2'>
                         <div className='flex flex-col-reverse md:grid grid-cols-2 gap-0 mb-14 md:mb-0'>
