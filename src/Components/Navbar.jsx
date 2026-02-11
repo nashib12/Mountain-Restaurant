@@ -105,7 +105,7 @@ const Navbar = () => {
             <li>
               <button
                 onClick={handleScrollToTop}
-                className="relative group transition-colors duration-300 hover:text-[#C97A4F]"
+                className="relative group transition-colors duration-300 hover:text-[#C97A4F] cursor-pointer"
                 disabled={isScrolling}
               >
                 Home
@@ -116,7 +116,7 @@ const Navbar = () => {
             <li>
               <button
                 onClick={() => handleScrollTo("about")}
-                className="relative group transition-colors duration-300 hover:text-[#C97A4F]"
+                className="relative group transition-colors duration-300 hover:text-[#C97A4F] cursor-pointer"
                 disabled={isScrolling}
               >
                 About
@@ -127,7 +127,7 @@ const Navbar = () => {
             <li>
               <button
                 onClick={() => handleScrollTo("rooms")}
-                className="relative group transition-colors duration-300 hover:text-[#C97A4F]"
+                className="relative group transition-colors duration-300 hover:text-[#C97A4F] cursor-pointer"
                 disabled={isScrolling}
               >
                 Accommodation
@@ -138,7 +138,7 @@ const Navbar = () => {
             <li>
               <button
                 onClick={() => handleScrollTo("services")}
-                className="relative group transition-colors duration-300 hover:text-[#C97A4F]"
+                className="relative group transition-colors duration-300 hover:text-[#C97A4F] cursor-pointer"
                 disabled={isScrolling}
               >
                 Services
@@ -149,7 +149,7 @@ const Navbar = () => {
             <li>
               <button
                 onClick={() => handleScrollTo("gallery")}
-                className="relative group transition-colors duration-300 hover:text-[#C97A4F]"
+                className="relative group transition-colors duration-300 hover:text-[#C97A4F] cursor-pointer"
                 disabled={isScrolling}
               >
                 Gallery
