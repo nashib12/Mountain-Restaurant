@@ -20,9 +20,9 @@ const Pricing = () => {
     <section id="">
       <div className="md:max-w-8xl mx-auto px-4 md:px-24 py-12 md:py-24 text-center">
         <span className="flex items-center justify-center gap-2 uppercase">
-          <PiMountains size={22} className="text-amber-950" /> Neaarby Adventures
+          <PiMountains size={22} className="text-amber-950" /> Nearby Adventures
         </span>
-        <h2 className="text-3xl md:text-7xl mt-2">Choose Adventure Location</h2>
+        <h2 className="text-3xl md:text-7xl mt-2">Choose your Own Adventure</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6 md:mt-16">
         {sportImg.map(items => (
           <div key={items.id} className="relative">
