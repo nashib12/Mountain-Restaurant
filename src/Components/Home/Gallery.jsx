@@ -12,18 +12,18 @@ const Gallery = () => {
   return (
     <>
     <section id='gallery'>
-    <div className=' px-4 overflow-hidden md:z-10'>
-        <div className='flex items-center justify-center whitespace-nowrap opacity-15 z-0'>
+    <div className=' px-4 overflow-hidden md:z-10 py-12 md:py-24'>
+        <div className='flex items-center justify-center whitespace-nowrap opacity-15'>
             <h2 className='text-3xl md:text-[7.5rem] uppercase '>Gallery</h2>
         </div>
         <div className='grid gap-6'>
-            <div className='flex gap-4 items-end z-10'>
+            <div className='flex gap-4 items-end'>
                 <img src={GalleryImg2} alt="Gallery Image" className='w-60 md:w-full object-contain' />
                 <img src={GalleryImg1} alt="Gallery Image" className='w-60 md:w-full object-contain' />
                 <img src={GalleryImg4} alt="Gallery Image" className='w-60 md:w-full object-contain' />
                 <img src={GalleryImg3} alt="Gallery Image" className='w-60 md:w-full object-contain' />
             </div>
-              <div className='flex gap-4 items-start z-10'>
+              <div className='flex gap-4 items-start'>
                 <img src={GalleryImg7} alt="Gallery Image" className='w-60 md:w-full object-contain' />
                 <img src={GalleryImg8} alt="Gallery Image" className='w-60 md:w-full object-contain' />
                 <img src={GalleryImg5} alt="Gallery Image" className='w-60 md:w-full object-contain' />

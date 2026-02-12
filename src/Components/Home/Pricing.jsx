@@ -18,7 +18,7 @@ const Pricing = () => {
   return (
     <>
     <section id="">
-      <div className="md:max-w-8xl mx-auto px-6 md:px-24 py-12 text-center">
+      <div className="md:max-w-8xl mx-auto px-6 md:px-24 py-12 md:py-24 text-center">
         <span className="flex items-center justify-center gap-2 uppercase">
           <PiMountains size={22} className="text-amber-950" /> Neaarby Adventures
         </span>

@@ -6,7 +6,7 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 const Booking = () => {
   return (
     <>
-      <div className='md:max-w-8xl mx-auto px-4 md:px-28 py-12 md:py-24'>
+      <div className='md:max-w-8xl mx-auto px-4 md:px-28'>
         <div className='relative text-white'>
             <img src={BgImage} alt="Background Image" className='w-full h-80 md:h-130 object-cover' />
             <div className='absolute inset-0 bg-black/10 w-full h-full'></div>

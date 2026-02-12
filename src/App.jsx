@@ -10,12 +10,13 @@ import Home from './Pages/Home'
 import ErrorPage from './Pages/ErrorPage'
 import RoomPage from './Pages/RoomPage'
 import Services from './Pages/Services'
+import WhatsAppBtn from './Components/WhatsAppBtn'
 
 function App() {
 
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.5,
+      duration: 1.2,
       smooth: true,
       smoothTouch: true,
     })
@@ -26,6 +27,8 @@ function App() {
     }
 
     requestAnimationFrame(raf)
+
+    window.lenis = lenis
 
     return () => {
       lenis.destroy()
@@ -42,6 +45,7 @@ function App() {
         <Route path='*' element={<ErrorPage />} />
       </Routes>
       <Footer />
+      <WhatsAppBtn />
       <BackToTop />
     </BrowserRouter>
   )

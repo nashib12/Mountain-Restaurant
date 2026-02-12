@@ -214,17 +214,6 @@ const Navbar = () => {
                   <button onClick={handleScrollToTop} disabled={isScrolling}>
                     Home
                   </button>
-                  <GoPlus size={24} className="transition-transform duration-300 hover:rotate-90" />
-                </li>
-
-                <li className="border-b py-2 flex justify-between transition-all duration-300 hover:pl-2 hover:text-[#C97A4F]">
-                  <button
-                    onClick={() => handleScrollTo("services")}
-                    disabled={isScrolling}
-                  >
-                    Services
-                  </button>
-                  <GoPlus size={24} className="transition-transform duration-300 hover:rotate-90" />
                 </li>
 
                 <li className="border-b py-2 flex justify-between transition-all duration-300 hover:pl-2 hover:text-[#C97A4F]">
@@ -234,17 +223,32 @@ const Navbar = () => {
                   >
                     About
                   </button>
-                  <GoPlus size={24} className="transition-transform duration-300 hover:rotate-90" />
                 </li>
 
-                <li className="py-2 flex justify-between transition-all duration-300 hover:pl-2 hover:text-[#C97A4F]">
+                <li className="border-b py-2 flex justify-between transition-all duration-300 hover:pl-2 hover:text-[#C97A4F]">
                   <button
-                    onClick={() => handleScrollTo("contact")}
+                    onClick={() => handleScrollTo("rooms")}
                     disabled={isScrolling}
                   >
-                    Contact
+                    Accommodiation
                   </button>
-                  <GoPlus size={24} className="transition-transform duration-300 hover:rotate-90" />
+                </li>
+
+                <li className="border-b py-2 flex justify-between transition-all duration-300 hover:pl-2 hover:text-[#C97A4F]">
+                  <button
+                    onClick={() => handleScrollTo("services")}
+                    disabled={isScrolling}
+                  >
+                    Services
+                  </button>
+                </li>
+                <li className="py-2 flex justify-between transition-all duration-300 hover:pl-2 hover:text-[#C97A4F]">
+                  <button
+                    onClick={() => handleScrollTo("gallery")}
+                    disabled={isScrolling}
+                  >
+                    Gallery
+                  </button>
                 </li>
               </ul>
             </div>
