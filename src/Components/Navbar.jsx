@@ -86,7 +86,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-screen z-50 transition-all duration-500 ease-in-out py-4 ${
+        className={`fixed top-0 left-0 w-screen z-30 transition-all duration-500 ease-in-out py-4 ${
           isAtTop
             ? "bg-transparent text-white border-b border-b-white"
             : "text-black bg-white shadow-xl"
@@ -101,7 +101,7 @@ const Navbar = () => {
           />
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex gap-24 text-xl">
+          <ul className="hidden md:flex gap-16 text-xl">
             <li>
               <button
                 onClick={handleScrollToTop}
@@ -191,7 +191,7 @@ const Navbar = () => {
       {mobileOpen && (
         <>
           <div
-            className="fixed inset-0 z-40 bg-black/90 animate-fadeIn"
+            className="fixed inset-0 z-40 bg-black/90 h-screen animate-fadeIn"
             onClick={() => setMobileOpen(false)}
           />
 

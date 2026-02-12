@@ -32,7 +32,7 @@ const FeedBack = () => {
 
   return (
     <div className="bg-[#FAF5F1]">
-      <div className="md:max-w-8xl mx-auto px-6 md:px-24">
+      <div className="md:max-w-8xl mx-auto px-4 md:px-24">
 
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:items-end">

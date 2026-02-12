@@ -52,7 +52,7 @@ const Mission = () => {
 
   return (
     <>
-      <div ref={sectionRef} className='md:max-w-8xl mx-auto px-6 md:px-24 py-12 md:py-24'>
+      <div ref={sectionRef} className='md:max-w-8xl mx-auto px-4 md:px-24 py-12 md:py-24'>
         <div className='grid md:grid-cols-2 gap-8'>
             <div ref={leftRef} className='flex flex-col items-start gap-2 md:gap-12 overflow-y-auto'>
                <div className='flex flex-col items-center md:items-start gap-4'>

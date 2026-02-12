@@ -13,7 +13,7 @@ const Hero = () => {
         <div className='absolute inset-0 md:max-w-7xl mx-auto px-6 md:px-16 flex flex-col items-center mt-40 md:mt-48 '>
             <h1 className='text-white text-5xl md:text-[13rem] uppercase'>Mountain</h1>
             <h2 className='text-white text-xl md:text-8xl '>Explore Destinations</h2>
-            <div className='bg-white grid w-full md:grid-cols-5 gap-4 px-8 py-8 mt-54 md:mt-16'>
+            <div className='bg-white grid w-full md:grid-cols-5 gap-4 px-8 py-8 mt-36 md:mt-16'>
                 <div className='flex flex-col gap-2'>
                     <p className='uppercase md:text-lg'>Check-in *</p>
                     <button className='flex bg-gray-100 px-4 py-2 justify-between items-center h-8 md:h-16 '><span>Check-in Date</span><BiCalendar size={28} /></button>

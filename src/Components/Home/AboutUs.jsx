@@ -16,12 +16,12 @@ const AboutUs = () => {
   return (
     <section id="rooms">
     <div className="bg-[#FAF5F1]">
-      <div className="md:max-w-8xl mx-auto px-6 md:px-24 md:py-24 relative overflow-hidden z-10">
+      <div className="md:max-w-8xl mx-auto px-6 md:px-24 py-12 md:py-24 relative overflow-hidden">
           <h2 className="absolute inset-0 hidden md:flex items-center justify-center whitespace-nowrap uppercase text-9xl opacity-5 top-10 z-0">
             Accommodation Near You
           </h2>
         
-        <div className="grid md:grid-cols-2 gap-6 z-10">
+        <div className="grid md:grid-cols-2 gap-6 ">
           {/* about item 1 start */}
           <div className="md:max-w-3xl flex flex-col items-start justify-between">
             <div>
@@ -40,7 +40,7 @@ const AboutUs = () => {
                 alt="Accommodation Post"
                 className="w-96 h-110 md:h-140 object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-110"
               />
-              <button className="hidden absolute z-20 top-8 right-6 h-14 w-14 rounded-xl group-hover:flex items-center justify-center bg-white text-[#c97a4f] hover:bg-[#c97a4f] hover:text-white cursor-pointer">
+              <button className="hidden absolute top-8 right-6 h-14 w-14 rounded-xl group-hover:flex items-center justify-center bg-white text-[#c97a4f] hover:bg-[#c97a4f] hover:text-white cursor-pointer">
                 <BsArrowUpRight size={28} />
               </button>
               <div className="absolute inset-0 w-full h-full bg-black/20"></div>

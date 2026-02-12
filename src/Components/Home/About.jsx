@@ -11,7 +11,7 @@ const About = () => {
     <>
 
     <section id="about" >
-      <div className="md:max-w-8xl mx-auto px-6 md:px-24 py-12 md:pt-36 flex flex-col items-center gap-2 text-center ">
+      <div className="md:max-w-8xl mx-auto px-4 md:px-24 py-12 md:pt-36 flex flex-col items-center gap-2 text-center ">
         <div className="md:max-w-7xl mx-auto md:px-28 flex flex-col items-center gap-2">
           <p className="flex gap-2 uppercase">
             <PiMountains size={16} /> About Us

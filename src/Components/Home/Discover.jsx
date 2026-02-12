@@ -11,7 +11,7 @@ const Discover = () => {
   return (
     <section id="services">
     <div className="bg-[#FAF5F1]">
-      <div className="md:max-w-8xl mx-auto px-6 md:px-24">
+      <div className="md:max-w-8xl mx-auto px-4 md:px-24">
         <h2
           className="text-3xl md:text-7xl md:leading-30 text-center"
         >
